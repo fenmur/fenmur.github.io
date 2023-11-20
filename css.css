@@ -21,7 +21,7 @@ header {
     font-family: 'Della Respira', sans-serif;
     border-radius: 10 px;
 
-    
+
 }
 /*Styling the main content */
 main{
@@ -60,5 +60,15 @@ nav a{
     padding: 20px;
     margin-top: 20px;
     border-radius: 5px
+
+}
+/*Styling the images within the portfolio*/
+#portfolio img{
+    display:contents
+    margin 5px auto;
+    border-color: rgb(84, 66, 113);
+    border-style: dashed;
+    border-width: 2px;
+    border-radius: 5px;
 
 }
