@@ -20,16 +20,26 @@ header {
     text-align: center;
     font-family: 'Della Respira', sans-serif;
     border-radius: 10 px;
+    a{
+        color: rgb(10, 10, 37);
+        font-size: medium;
+    }
 
 }
 /*Styling the main content */
 main{
     padding: 20px;
-    background-color: rgba(63, 55, 114, 0.853), 0.853), 0, 0);
+    background-color: rgba(63, 55, 114, 0.853), 0.853, 0, 0;
     text-align: center;
     font-family: 'Della Respira', sans-serif;
-    
-    
+
+}
+
+/*Styling the navigation links*/
+nav a{
+    color: darkslategray;
+    font-size: small;
+    padding: 10px;   
 }
 
 /*Styling the biography section*/
