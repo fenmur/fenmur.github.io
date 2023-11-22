@@ -20,9 +20,42 @@ header {
     text-align: center;
     font-family: 'Philosopher', sans-serif;
     border-radius: 10 px;
-
-
 }
+
+/*Styling the navigation*/
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 0.5em;
+  }
+
+  nav ul li a{
+    color: rgba(63, 55, 114, 0.853);
+    border-color: rgb(28, 28, 61);
+    border-style: dashed;
+    border-width: 3px;
+    border-radius: 25px;
+    background-color: rgb(11, 11, 30);
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+
+  }
+
+ nav ul li a:hover, nav ul li a:focus {
+    color: rgb(35, 18, 72), 0, 0;
+    background-color: rgb(102, 65, 132);
+    font-weight: bold;
+  }
+
 /*Styling the main content */
 main {
     padding: 20px;
@@ -73,6 +106,7 @@ font-family: 'Philosopher', sans-serif;
 
 /*Styling the portfolio section*/
 #portfolio {
+    text-align: center;
     border-color: rgb(77, 41, 110) ;
     border-style: dashed;
     border-width: 3px;
