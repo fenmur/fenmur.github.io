@@ -1,13 +1,13 @@
 /* Google fonts I am using for the website */
 @import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
+
 
 
 body {
  background-color: rgb(18, 18, 49);
  color:rgb(35, 66, 94);
- font-family: 'Quattrocento',sans-serif;
+ font-family: 'Philosopher',sans-serif;
  margin: 0;
 
 }
@@ -18,7 +18,7 @@ header {
     padding: 20px;
     color:rgb(84, 66, 113);
     text-align: center;
-    font-family: 'Della Respira', sans-serif;
+    font-family: 'Philosopher', sans-serif;
     border-radius: 10 px;
 
 
@@ -28,28 +28,73 @@ main{
     padding: 20px;
     background-color: rgba(63, 55, 114, 0.853), 0.853, 0, 0;
     text-align: center;
-    font-family: 'Della Respira', sans-serif;
+    font-family: 'Philosopher', sans-serif;
 
 }
 
 /*Styling the navigation links*/
-nav a{
-    color: darkslategray;
-    font-size: small;
-    padding: 10px;   
+ul{
+    list-style-type:none;
+    margin: 0px;
+    padding: 5px;
+    overflow: 4px;
+    background-color: rgb(68, 36, 120);
+
+
+}
+
+li{
+    float: left;
+
+
+}
+
+li a{
+display: block;
+color:rgb(68, 36, 120);
+text-align: center;
+padding: 10px 15px;
+text-decoration:dashed
 }
 
 /*Styling the biography section*/
+
 #biography1 {
+    
+    color: rgba(63, 55, 114, 0.853);
     border-color: rgb(28, 28, 61);
     border-style: dashed;
     border-width: 3px;
-    border-radius: 5px;
+    border-radius: 25px;
     background-color: rgb(11, 11, 30);
     padding: 20px;
     margin-top: 20px;
-   
+    text-align: center;
 }
+
+#biography1 h2{
+    color: rgb(84, 66, 113);
+    font-size:x-large;
+    font-family:'Philosopher', sans-serif;
+   
+    
+
+}
+
+#biography1 h3{
+    color: rgb(84, 66, 113);
+    font-size: large;
+    font-family: 'Philosopher', sans-serif;
+
+ }
+
+ #biography1 p{
+color:rgba(63, 55, 114, 0.853);
+font-size: medium;
+font-family: 'Philosopher', sans-serif;
+
+ }
+
 
 /*Styling the portfolio section*/
 #portfolio {
@@ -59,16 +104,25 @@ nav a{
     background-color: rgb(28, 28, 61);
     padding: 20px;
     margin-top: 20px;
-    border-radius: 5px
+    border-radius: 25px
 
 }
-/*Styling the images within the portfolio*/
+
 #portfolio img{
     display:contents
     margin 5px auto;
-    border-color: rgb(84, 66, 113);
+    border-color: rgb(110, 52, 202);
     border-style: dashed;
+
     border-width: 2px;
     border-radius: 5px;
 
 }
+#portfolio h2{
+    color: rgb(68, 36, 120);
+    font-size: x-large;
+    font-family: 'Philosopher', sans-serif;
+
+
+}
+
