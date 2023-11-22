@@ -24,37 +24,12 @@ header {
 
 }
 /*Styling the main content */
-main{
+main {
     padding: 20px;
     background-color: rgba(63, 55, 114, 0.853), 0.853, 0, 0;
     text-align: center;
     font-family: 'Philosopher', sans-serif;
 
-}
-
-/*Styling the navigation links*/
-ul{
-    list-style-type:none;
-    margin: 0px;
-    padding: 5px;
-    overflow: 4px;
-    background-color: rgb(68, 36, 120);
-
-
-}
-
-li{
-    float: left;
-
-
-}
-
-li a{
-display: block;
-color:rgb(68, 36, 120);
-text-align: center;
-padding: 10px 15px;
-text-decoration:dashed
 }
 
 /*Styling the biography section*/
@@ -124,5 +99,51 @@ font-family: 'Philosopher', sans-serif;
     font-family: 'Philosopher', sans-serif;
 
 
+ }
+
+
+footer {
+    position:static;
+    left: 0px;
+    bottom: 0px;
+    width: auto;
+    height: 30px;
+    background-color: rgb(84, 66, 113);
+    color: beige;
+    text-align: center;
+ }
+
+ /*Styling the table and contact me*/
+ 
+ #contactme h2{
+    text-align: center;
+ }
+
+table {
+    border-collapse: collapse;
+    width: 100px;
+
+}
+ 
+td {
+    text-align: left;
+    padding: 5px;
+
 }
 
+th{
+    background-color: rgb(28, 28, 52);
+    color: rgb(84, 66, 113)
+}
+tr{
+    background-color:rgb(23, 15, 34);
+    border-radius: 50px;
+    border-color: rgb(77, 41, 110) ;
+    border-style: dashed;
+    border-width: 3px;
+    padding: 20px;
+    margin-top: 20px;
+
+    
+
+};
