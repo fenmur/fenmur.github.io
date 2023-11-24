@@ -119,8 +119,8 @@ font-family: 'Philosopher', sans-serif;
 
 #portfolio img{
     display:contents
-    margin 5px auto;
-    border-color: rgb(110, 52, 202);
+    margin: 5px
+    border-color: RGB (110, 52, 202);
     border-style: dashed;
 
     border-width: 2px;
@@ -177,7 +177,4 @@ tr{
     border-width: 3px;
     padding: 20px;
     margin-top: 20px;
-
-    
-
-};
+}
