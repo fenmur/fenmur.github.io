@@ -17,7 +17,7 @@ header {
     background-color: rgb(10, 10, 37);
     padding: 20px;
     color: rgb(84, 66, 113);
-    margin: 0 auto; /
+    margin: 0 auto; 
     font-family: 'Philosopher', sans-serif;
     text-align: center; 
     border-radius: 10px;
@@ -62,7 +62,7 @@ nav ul li {
 /*Styling the main content */
 main {
     padding: 20px;
-    background-color: rgba(63, 55, 114, 0.853);
+    background-color: rgb(28, 28, 52);
     text-align: center;
     font-family: 'Philosopher', sans-serif;
 }
@@ -118,13 +118,14 @@ font-family: 'Philosopher', sans-serif;
     margin-top: 20px;
     border-radius: 25px
 
-#portfolio img{
+#portfolio img {
     display: contents;
     margin: 5px auto;
     border-color: rgb(110, 52, 202);
     border-style: dashed;
     border-width: 2px;
     border-radius: 5px;
+
 }
 
 
