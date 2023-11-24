@@ -51,7 +51,7 @@ nav ul li {
   }
 
  nav ul li a:hover, nav ul li a:focus {
-    color: rgb(35, 18, 72), 0, 0;
+    color: rgb(35, 18, 72);
     background-color: rgb(102, 65, 132);
     font-weight: bold;
   }
@@ -118,8 +118,8 @@ font-family: 'Philosopher', sans-serif;
 }
 
 #portfolio img{
-    display:contents
-    margin 5px auto;
+    display:contents;
+    margin: 5px auto;
     border-color: rgb(110, 52, 202);
     border-style: dashed;
 
