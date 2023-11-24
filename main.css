@@ -19,6 +19,7 @@ header {
     color: rgb(84, 66, 113);
     margin: 0 auto; /
     font-family: 'Philosopher', sans-serif;
+    text-align: center; 
     border-radius: 10px;
 }
 
