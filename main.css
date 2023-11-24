@@ -17,10 +17,11 @@ header {
     background-color: rgb(10, 10, 37);
     padding: 20px;
     color: rgb(84, 66, 113);
-    text-align: center;
+    margin: 0 auto; /
     font-family: 'Philosopher', sans-serif;
     border-radius: 10px;
 }
+
 
 
 /*Styling the navigation*/
