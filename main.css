@@ -19,7 +19,7 @@ header {
     color:rgb(84, 66, 113);
     text-align: center;
     font-family: 'Philosopher', sans-serif;
-    border-radius: 10 px;
+    border-radius: 10px;
 }
 
 /*Styling the navigation*/
@@ -51,7 +51,7 @@ nav ul li {
   }
 
  nav ul li a:hover, nav ul li a:focus {
-    color: rgb(35, 18, 72), 0, 0;
+    color: rgb(35, 18, 72);
     background-color: rgb(102, 65, 132);
     font-weight: bold;
   }
@@ -59,7 +59,7 @@ nav ul li {
 /*Styling the main content */
 main {
     padding: 20px;
-    background-color: rgba(63, 55, 114, 0.853), 0.853, 0, 0;
+    background-color: rgba(63, 55, 114, 0.853);
     text-align: center;
     font-family: 'Philosopher', sans-serif;
 
@@ -118,8 +118,8 @@ font-family: 'Philosopher', sans-serif;
 }
 
 #portfolio img{
-    display:contents
-    margin: 5px
+    display: contents;
+    margin: 5px auto;
     border-color: RGB (110, 52, 202);
     border-style: dashed;
 
