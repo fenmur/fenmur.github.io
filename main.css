@@ -20,7 +20,7 @@ header {
     text-align: center;
     font-family: 'Philosopher', sans-serif;
     border-radius: 10px;
-}
+  }
 
 /*Styling the navigation*/
 
@@ -50,11 +50,10 @@ nav ul li {
 
   }
 
- nav ul li a:hover, nav ul li a:focus {
+nav ul li a:hover, nav ul li a:focus {
     color: rgb(35, 18, 72);
-    background-color: rgb(102, 65, 132);
-    font-weight: bold;
-  }
+}
+
 
 /*Styling the main content */
 main {
@@ -117,16 +116,14 @@ font-family: 'Philosopher', sans-serif;
 
 }
 
-#portfolio img{
-    display: contents;
+#portoflio img {
     margin: 5px auto;
-    border-color: RGB (110, 52, 202);
+    border-color: rgb(110, 52, 202);
     border-style: dashed;
-
     border-width: 2px;
     border-radius: 5px;
+   }
 
-}
 #portfolio h2{
     color: rgb(68, 36, 120);
     font-size: x-large;
