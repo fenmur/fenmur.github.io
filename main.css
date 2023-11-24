@@ -108,16 +108,13 @@ font-family: 'Philosopher', sans-serif;
 
 
 /*Styling the portfolio section*/
-#portfolio {
-    text-align: center;
-    border-color: rgb(77, 41, 110);
+#portfolio img {
+    margin: 5px auto;
+    border-color: rgb(110, 52, 202);
     border-style: dashed;
-    border-width: 3px;
-    background-color: rgb(28, 28, 61);
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 25px;
-}
+    border-width: 2px;
+    border-radius: 5px;
+   }
 
 #portfolio img {
      display: contents;
